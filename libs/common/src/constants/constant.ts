@@ -9,7 +9,7 @@ export const Service={
 
 export const Port={
 
-    API_GATEWAY:3000,
+    API_GATEWAY:3006,
     AUTH_SERVICE:3001,
     USER_SERVICE:3002
 
