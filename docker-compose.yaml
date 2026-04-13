@@ -39,7 +39,7 @@ services:
     volumes:
       - kafka-data:/var/lib/kafka/data
 
-   kafka-ui:
+  kafka-ui:
     image: provectuslabs/kafka-ui:latest
     container_name: eventflowapp-kafka-ui
     depends_on:
@@ -76,4 +76,3 @@ volumes:
   zookeeper-logs:
   kafka-data:
   postgres-data:
-    
