@@ -2,7 +2,8 @@ export const Service={
 
     API_GATEWAY:"api-gateway",
     AUTH_SERVICE:"auth-service",
-    USER_SERVICE:"user-service"
+    USER_SERVICE:"user-service",
+    EVENT_SERVICE:"event-service"
 
 } 
 
@@ -11,7 +12,8 @@ export const Port={
 
     API_GATEWAY:3006,
     AUTH_SERVICE:3001,
-    USER_SERVICE:3002
+    USER_SERVICE:3002,
+    EVENT_SERVICE:3007
 
 }
 
